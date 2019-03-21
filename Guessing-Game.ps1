@@ -6,7 +6,8 @@
     $u = [Microsoft.VisualBasic.Interaction]::InputBox('Enter Your Name', "Guessing-Game")
     
     while ($a -eq "yes") {
-  
+	
+      $b = $null
       $d = Get-Random -Maximum 9 -Minimum 1
       while ($b -ne "NO") {
         
